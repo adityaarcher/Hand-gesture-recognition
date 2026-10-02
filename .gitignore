@@ -1,0 +1,14 @@
+# Virtual environments
+.venv/
+gesture_env/
+venv/
+
+# Installers and cache
+*.exe
+*.exe.asc
+__pycache__/
+*.pyc
+
+# IDE / System
+.vscode/
+.DS_Store

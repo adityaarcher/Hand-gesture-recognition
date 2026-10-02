@@ -1,0 +1,19 @@
+Windows (PowerShell):
+
+PowerShell
+python -m venv gesture_env
+.\gesture_env\Scripts\activate
+Mac / Linux:
+
+Bash
+python3 -m venv gesture_env
+source gesture_env/bin/activate
+3. Install Dependencies
+Bash
+pip install opencv-python mediapipe pyautogui
+(Or install via requirements file: pip install -r requirements.txt)
+
+4. Run the Application
+Bash
+cd pro
+python main.py
